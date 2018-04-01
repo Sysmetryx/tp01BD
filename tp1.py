@@ -7,7 +7,7 @@ def myQuerry():
 SELECT
             COUNT(born_dead)
         FROM
-            [bigquerry-public-data:samples.natality]
+            'bigquerry-public-data:samples.natality'
         WHERE
             (alcohol_use == TRUE and born_dead == TRUE)""");
 
